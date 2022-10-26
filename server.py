@@ -4,7 +4,7 @@ import sys # In order to terminate the program
 
 serverSocket = socket(AF_INET, SOCK_STREAM)
 #Prepare a sever socket
-serverHost = ''
+serverHost = '' # add your IP address
 serverPort = 7000
 #Fill in start
 serverSocket.bind((serverHost,serverPort))
